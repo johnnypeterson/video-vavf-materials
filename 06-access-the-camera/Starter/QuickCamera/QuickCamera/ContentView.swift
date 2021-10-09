@@ -36,8 +36,7 @@ struct ContentView: View {
   var body: some View {
     VStack {
       ZStack {
-        EmptyView()
-          .foregroundColor(.black)
+          CameraView()
         VStack {
           HStack {
             Button {
